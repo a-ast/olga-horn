@@ -1,0 +1,24 @@
+title: Olga Horn
+description: Personal website
+baseurl: ""
+url: ""
+
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: "de"
+    values:
+      lang: de
+      layout: default
+  - scope:
+      path: "ru"
+    values:
+      lang: ru
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
