@@ -17,6 +17,47 @@ header {
   margin-bottom: 2rem;
 }
 
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 3rem;
+  align-items: start;
+}
+
+.sidebar ul {
+  list-style: none;
+  border-left: 2px solid #eee;
+  padding-left: 1rem;
+}
+
+.sidebar li {
+  margin-bottom: 0.6rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.sidebar a:hover {
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar ul {
+    border-left: none;
+    border-top: 2px solid #eee;
+    padding-left: 0;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+}
+
 nav a {
   margin-right: 1rem;
   text-decoration: none;

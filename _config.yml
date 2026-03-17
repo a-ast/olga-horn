@@ -17,6 +17,14 @@ defaults:
     values:
       lang: ru
       layout: default
+  - scope:
+      path: "de/news"
+    values:
+      sidebar_folder: "/de/news/"
+  - scope:
+      path: "ru/news"
+    values:
+      sidebar_folder: "/ru/news/"
 
 exclude:
   - Gemfile

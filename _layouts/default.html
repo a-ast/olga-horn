@@ -10,8 +10,11 @@
   <header>
     {% include nav.html %}
   </header>
-  <main>
-    {{ content }}
+  <main class="layout">
+    <article class="content">
+      {{ content }}
+    </article>
+    {% include sidebar.html %}
   </main>
 </body>
 </html>
