@@ -1,11 +1,12 @@
 ---
 title: "DE"
 permalink: /
+sidebar_folder: /de/news/
 sidebar_links:
-  - title: Über mich
-    url: /about/
-  - title: Instagram
-    url: https://instagram.com
+  #- title: Über mich
+  #  url: /about/
+  #- title: Instagram
+  #  url: https://instagram.com
 ---
 
 # olga *horn*

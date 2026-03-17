@@ -1,6 +1,7 @@
 ---
 title: Главная
 permalink: /ru/
+sidebar_folder: /ru/news/
 ---
 
 # ольга *хорн*

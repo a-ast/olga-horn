@@ -1,26 +1,23 @@
+{% assign sidebar_news = "" | split: "" %}
 {% if page.sidebar_folder %}
   {% assign folder_prefix = page.sidebar_folder %}
-  {% assign sidebar_pages = site.pages
+  {% assign sidebar_news = site.pages
       | where_exp: "p", "p.url contains folder_prefix"
       | sort: "date"
       | reverse %}
-  {% if sidebar_pages.size > 0 %}
-  <aside class="sidebar">
-    <ul>
-      {% for p in sidebar_pages %}
-        {% unless p.url == page.url %}
-        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </aside>
-  {% endif %}
-{% elsif page.sidebar_links %}
-  <aside class="sidebar">
-    <ul>
-      {% for link in page.sidebar_links %}
-      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </aside>
+{% endif %}
+
+{% if sidebar_news.size > 0 or page.sidebar_links %}
+<aside class="sidebar">
+  <ul>
+    {% for p in sidebar_news %}
+      {% unless p.url == page.url %}
+      <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+    {% for link in page.sidebar_links %}
+    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</aside>
 {% endif %}

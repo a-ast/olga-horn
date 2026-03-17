@@ -168,15 +168,15 @@ nav a:hover {
   list-style: none;
   border-left: 2px solid #CEF57D;
   padding-left: 1rem;
+  line-height: 1.3;
 }
 
 .sidebar li {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.3rem;
 }
 
 .sidebar a {
   font-size: 0.825rem;
-  line-height: 1.4;
   text-decoration: none;
   color: #8DB6D9;
   transition: color 0.2s;
