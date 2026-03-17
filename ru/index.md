@@ -3,12 +3,12 @@ title: Главная
 permalink: /ru/
 ---
 
-# ольга хорн
+# ольга *хорн*
 
-писательница
-между
-культурами и унаследованными воспоминаниями
-между
+писательница\
+между\
+культурами и унаследованными воспоминаниями\
+между\
 внешней реальностью и внутренним переживанием
 
 На русском моя повесть __Страх запаха__ выйдет предположительно в мае.
@@ -19,7 +19,7 @@ permalink: /ru/
 
 Как будет выглядеть обложка этой книги, ещё никто не знает. Пусть тут пока постоит картинка немецкой версии повести ([_Die Mäusefurcht_](https://www.klakverlag.de/produkt/horn-olga-die-maeusefurcht-roman/?fbclid=IwY2xjawQaNqdleHRuA2FlbQIxMABicmlkETFadmRuRFJCakhaRTNBN1d1c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiirLCQaCf-ZYWbkgQxVOAxOkxoAxSlJ8zWSJqR7K71UC-__qD0n6GCc9na6_aem_nEkyIvf707K3kDY5DKcKaw)).
 
-# обо __мне__
+# обо *мне*
 
 ![Ольга Хорн]({{ '/assets/images/author.jpg' | relative_url }})
 
@@ -33,7 +33,7 @@ permalink: /ru/
 
 Я веду ТГ-канал [Проявитель ощущений](https://t.me/projawitel_oh). В соцсетях рассказываю о пути писательницы, жизни в Подберлинье, судьбах своих предков, а также о впечатлениях от книг, спектаклей и выставок.
 
-# мои __тексты__
+# мои *тексты*
 
 ![Рукопись]({{ '/assets/images/manuscript.jpg' | relative_url }})
 
@@ -41,7 +41,7 @@ permalink: /ru/
 
 из повести _Страх запаха_
 
-Опубликованные __рассказы__ :
+Опубликованные *рассказы* :
 
 * [Торопливое утро](https://www.roar-review.com/ROAR-4f985958977d45c0bf6ef8fa7dfa6e7d?p=1269ba70dc4380a6b227c706176c2dca&pm=c)
 * [Тихая смена](https://textlit.de/index.php/2023/06/27/42675/)

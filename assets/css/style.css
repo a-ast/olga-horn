@@ -87,11 +87,7 @@ nav a:hover {
 }
 
 .content p {
-  margin-bottom: 1.25rem;
-}
-
-.content p + p {
-  margin-top: 0;
+  margin-bottom: 1.75rem;
 }
 
 .content a {
@@ -109,7 +105,13 @@ nav a:hover {
 
 .content strong {
   font-weight: 600;
-  background: linear-gradient(to bottom, transparent 60%, rgba(206, 245, 125, 0.5) 60%);
+}
+
+.content h1 em,
+.content h2 em,
+.content h3 em {
+  font-style: normal;
+  background: linear-gradient(to bottom, transparent 60%, rgba(206, 245, 125, 0.6) 60%);
 }
 
 .content em {
@@ -128,7 +130,7 @@ nav a:hover {
 }
 
 .content ul li::before {
-  content: '—';
+  content: '— ';
   position: absolute;
   left: 0;
   color: #CEF57D;
