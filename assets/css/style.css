@@ -1,72 +1,214 @@
-* {
+/* ── Reset ───────────────────────────────────────────────── */
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* ── Base ────────────────────────────────────────────────── */
 body {
-  font-family: Georgia, serif;
-  color: #222;
-  line-height: 1.6;
-  max-width: 800px;
+  background-color: #F5F5F5;
+  color: #333333;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.875;
+  padding: 4rem 2rem;
+}
+
+.site-wrapper {
+  max-width: 1020px;
   margin: 0 auto;
-  padding: 2rem 1rem;
 }
 
+/* ── Navigation ──────────────────────────────────────────── */
 header {
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 }
 
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8DB6D9;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #5346E8;
+}
+
+/* ── Layout: content + sidebar ───────────────────────────── */
 .layout {
   display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 3rem;
+  grid-template-columns: 1fr 20%;
+  gap: 4rem;
   align-items: start;
+}
+
+/* ── Content typography ──────────────────────────────────── */
+.content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.25rem;
+  color: #333333;
+}
+
+.content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #333333;
+}
+
+.content h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: #8DB6D9;
+}
+
+.content p {
+  margin-bottom: 1.25rem;
+}
+
+.content p + p {
+  margin-top: 0;
+}
+
+.content a {
+  color: #8DB6D9;
+  text-decoration: underline;
+  text-decoration-color: rgba(141, 182, 217, 0.35);
+  text-underline-offset: 3px;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+
+.content a:hover {
+  color: #5346E8;
+  text-decoration-color: rgba(83, 70, 232, 0.4);
+}
+
+.content strong {
+  font-weight: 600;
+  background: linear-gradient(to bottom, transparent 60%, rgba(206, 245, 125, 0.5) 60%);
+}
+
+.content em {
+  font-style: italic;
+}
+
+.content ul {
+  list-style: none;
+  margin-bottom: 1.25rem;
+}
+
+.content ul li {
+  margin-bottom: 0.4rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.content ul li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: #CEF57D;
+}
+
+.content blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid #CEF57D;
+  background: rgba(206, 245, 125, 0.08);
+  color: #555;
+  font-size: 0.975rem;
+  line-height: 1.75;
+}
+
+.content hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 2.5rem 0;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────── */
+.sidebar {
+  padding-top: 0.25rem;
 }
 
 .sidebar ul {
   list-style: none;
-  border-left: 2px solid #eee;
+  border-left: 2px solid #CEF57D;
   padding-left: 1rem;
 }
 
 .sidebar li {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.65rem;
 }
 
 .sidebar a {
+  font-size: 0.825rem;
+  line-height: 1.4;
   text-decoration: none;
-  color: #555;
-  font-size: 0.9rem;
+  color: #8DB6D9;
+  transition: color 0.2s;
 }
 
 .sidebar a:hover {
-  color: #000;
+  color: #5346E8;
 }
 
-@media (max-width: 600px) {
+/* ── Mobile ──────────────────────────────────────────────── */
+@media (max-width: 700px) {
+  body {
+    padding: 2.5rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  header {
+    margin-bottom: 2.5rem;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
   .layout {
     grid-template-columns: 1fr;
   }
 
+  .sidebar {
+    padding-top: 0;
+  }
+
   .sidebar ul {
     border-left: none;
-    border-top: 2px solid #eee;
+    border-top: 2px solid #CEF57D;
     padding-left: 0;
-    padding-top: 1rem;
-    margin-top: 1rem;
+    padding-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
   }
-}
 
-nav a {
-  margin-right: 1rem;
-  text-decoration: none;
-  color: #555;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-nav a:hover {
-  color: #000;
+  .sidebar li {
+    margin-bottom: 0;
+  }
 }

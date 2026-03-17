@@ -22,7 +22,7 @@ __Buchpräsentation__: 27. März 2026 | 19:00 Uhr KLAK im buch|bund | Sanderstr.
 Kommt vorbei. Ich freue mich auf Euch.
 
 
-#Über __mich__
+# über __mich__
 
 Ich wurde 1976 in Alma-Ata (Kasachstan) geboren und lebe in Petershagen bei Berlin. Nach meinem Studium an der Humboldt-Universität war ich über 20 Jahre als freiberufliche Übersetzerin und Dolmetscherin tätig.
 
@@ -34,7 +34,7 @@ Im Januar 2025 war ich Writer in Residence an der Franz-Edelmaier-Residenz für 
 
 Seit vielen Jahren bin ich in den sozialen Medien aktiv und erzähle dort über Bücher, kulturelle Ereignisse in Berlin und Brandenburg, über meinen Weg als Autorin sowie über die Geschichte meiner Vorfahren.
 
-# lese__probe__
+# leseprobe
 
 „Ich hab ein neies Fahrrad gekauft – Pensenski. Das waren die besten Fahrräder in Russland. Da war ein Dynamo dran und alles. Licht einschalten – dann kann ich alles sehen, wenn ich fahre. Und ganz übernickelt. Jetzt hatte ich es grad ein Monat wahrscheinlich, und da kam die Aussiedlung. Hinschmeißen – das war mir zu schad. Dann hab ich das Fahrrad auseinandergenommen, und hab ein Kasten zusammengeschlagen. Wir hatten für die Frau, für Herta, gekauft zum Mantel schneidern: Watte, Unterfutter, Oberfutter und Kragen – das hatten wir alles gekauft und wollten es grad noch abgeben, zum Nähen. Und es kam soweit nicht mehr. Da hab ich unseren alten Sack in den Kasten reingelegt, die Baumwolle drauf, und das Fahrrad auseinander, ganz auseinandergenommen. Und immer so in der Watte reingelegt.“
 aus: _Die Mäusefurcht_
