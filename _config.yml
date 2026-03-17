@@ -1,7 +1,7 @@
 title: Olga Horn
 description: Personal website
-baseurl: ""
-url: ""
+baseurl: "/olga-horn"
+url: "https://a-ast.github.io"
 
 markdown: kramdown
 highlighter: rouge
